@@ -1,0 +1,86 @@
+.jumbotron {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: navy;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    height: 315px;
+    max-width: 100%;
+}
+
+.Press {
+    border: 3 px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 80%;
+}
+
+#Wins {
+    border: 3 px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 80%;
+}
+
+#Current {
+    border: 3 px solid;
+    color: darkgreen; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 80%;
+}
+
+#underscore {
+    border: 3 px solid;
+    color:rgb(87, 74, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    width: 80%;
+}
+
+#Guesses {
+    border: 3 px solid;
+    color: rgb(63, 3, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 80%;
+}
+
+#Letters {
+    border: 3 px solid;
+    color: rgb(252, 252, 252);
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 80%;
+}
+
+footer {
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border: 3px solid #4aaaa5;
+    color: #ccc;
+    font-size: 20px;
+    text-align: center;
+}

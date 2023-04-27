@@ -1,42 +1,49 @@
-<html>
-    <head>
-        <title>Black Panther Game</title>
-        <link rel="stylesheet" type="text/css" href="./css/reset.css">
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="jumbotron">
+<!DOCTYPE html>
+
+<head>
+    <title>Black Panther Game</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
             <h1>Black Panther Trivia</h1>
             <img src="./images/Black Panther Logo.jpg">
+        </div>
+        <div>
+            <div class="panal-heading">
+                <h2 id="Press any key to get started!">Press any key to get started! Guess Correctly to Win</h2>
             </div>
-            <div>
-                <div class="panal-heading">
-                    <h2 id="Press any key to get started!">Press any key to get started! Guess Correctly to Win
-                </div>
-                <div class="panal-body">
-                 <span id="Wins">Wins:</span>
-                </div>
-                <div class="panal-body">
-                 <span id="Current">Current Word</span>
-                </div>    
-                <div class="panal-body">
-                 <span id="underscore">_ _ _ _ _ _</span>
-                </div>
-                <div class="panal-body">
-                 <span id="Guesses">Number of Guesses Remaining:</span>
-                </div>    
-                <div class="panal-body">
-                    <span id="Letters">Letters Already Guessed: </span>
-                </div>
+            <div class="panal-body">
+                <span id="Wins">Wins:</span>
+            </div>
+            <div class="panal-body">
+                <span id="Current">Current Word</span>
+            </div>
+            <div class="panal-body">
+                <span id="underscore">_ _ _ _ _ _</span>
+            </div>
+            <div class="panal-body">
+                <span id="Guesses">Number of Guesses Remaining:</span>
+            </div>
+            <div class="panal-body">
+                <span id="Letters">Letters Already Guessed: </span>
+            </div>
+            <div class="panal-body">
+                <span id="message"></span>
+                <button id="play-button">Restart</button></button>
             </div>
         </div>
-            <script type="text/javascript" src="./javascript/game.js"></script>
-        <footer>
+    </div>
+    <footer>
         <div class="container">
-                &copy: Copyright 2019 Julian K Hicks
-            </div>
-        </footer>
-    </body>
+            &copy: Copyright 2019 Julian K Hicks
+        </div>
+    </footer>
+    <script src="game.js"></script>
+</body>
+
 </html>

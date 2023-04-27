@@ -1,8 +1,8 @@
 body {
-    background: url("https://s3-us-west-2.amazonaws.com/oliosite-assets/uploads/imgs/kill.jpeg");
+    background-color: gold;
 }
 .jumbotron {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: navy;
     background: url("https://i.ytimg.com/vi/h3S9koeQzr8/maxresdefault.jpg");
     font-size: 40px;
@@ -11,89 +11,55 @@ body {
     height: 315px;
     max-width: 100%;
 }
-
 .container {
-
     text-align: center;
-
 }
-
-.h2 {
-    border: 3 px solid black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    margin: 0 auto;
-    height: 70px;
-    width: 80%;
-}
-
 .panal-heading {
-    
-    background: rgb(83, 8, 168);
+    background: rgb(85, 69, 103);
     border: 1px solid black;
+    color: gold;
 }
-
 .panal-body {
-
     background: rgb(9, 110, 128);
+    height: 100px;
 }
 #Wins {
-    border: 3 px solid;
-    font-family: Arial, Helvetica, sans-serif;
-    color: navy;
+    color:rgb(5, 39, 5);
     font-size: 20px;
-    text-align: center;
-    margin: 0 auto;
-    height: 80px;
-    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid;
 }
-
 #Current {
-    border: 3 px solid;
-    color: darkgreen; 
-    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
     font-size: 20px;
-    text-align: center;
-    margin: 0 auto;
-    height: 80px;
-    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid;
 }
-
 #underscore {
-    border: 3 px solid;
-    color:rgb(87, 74, 5);
-    font-family: Arial, Helvetica, sans-serif;
+    color: snow;
+    font-family: sans-serif;
     font-size: 45px;
-    text-align: center;
-    margin: 0 auto;
-    height: 100px;
-    width: 80%;
+    border: solid;
 }
-
 #Guesses {
-    border: 3 px solid;
-    color: rgb(63, 3, 63);
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 5, 5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    text-align: center;
-    margin: 0 auto;
-    height: 80px;
-    width: 80%;
+    border: solid;
 }
-
 #Letters {
-    border: 3 px solid;
-    color: rgb(168, 47, 47);
-     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 26, 26);
     font-size: 20px;
-    text-align: center;
-    margin: 0 auto;
-    height: 80px;
-    width: 80%;
+    font-family: monospace;
+    border: solid;
 }
-
+#play-button {
+    background-color: rgb(9, 110, 128);
+    color: silver;
+    border: 3px solid #4aaaa5;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 footer {
     background: rgb(107, 37, 37);
     padding: 4px 0;
